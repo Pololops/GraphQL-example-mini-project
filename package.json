@@ -1,0 +1,25 @@
+{
+  "name": "intro-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=Apollo node-dev index.js --no-notify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Zagreus/intro-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Zagreus/intro-graphql/issues"
+  },
+  "homepage": "https://github.com/O-clock-Zagreus/intro-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.4",
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0"
+  }
+}
